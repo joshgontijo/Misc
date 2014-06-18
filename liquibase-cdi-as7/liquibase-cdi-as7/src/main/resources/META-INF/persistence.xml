@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="MY-PU" transaction-type="JTA">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>${db.datasource}</jta-data-source>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="${db.hbn.ddl}" />
+			<property name="hibernate.dialect" value="${db.hbn.dialect}" />
+			
+			<property name="hibernate.c3p0.min_size" value="${db.hbn.c3po.min}" />
+			<property name="hibernate.c3p0.max_size" value="${db.hbn.c3po.max}" />
+			<property name="hibernate.c3p0.max_statements" value="${db.hbn.c3po.max_statements}" />
+		</properties>
+	</persistence-unit>
+</persistence>
