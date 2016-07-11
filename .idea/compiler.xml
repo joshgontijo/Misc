@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="smtp-handler" />
+        <module name="spring4-jpa" />
+        <module name="tomcat-cdi-jpa-jaxrs" />
+        <module name="tomcat-standalone" />
+      </profile>
+      <profile default="false" name="Annotation profile for basic-liquibase-cdi-ear-ear" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="basic-liquibase-cdi-ear-ear" />
+      </profile>
+      <profile default="false" name="Annotation profile for mongo-morphia-basic" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="mongo-morphia-basic" />
+      </profile>
+      <profile default="false" name="Annotation profile for tomcat-cdi-jpa (1)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tomcat-cdi-jpa (1)" />
+      </profile>
+      <profile default="false" name="Annotation profile for basic-cdiliquibase" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="basic-cdiliquibase" />
+      </profile>
+      <profile default="false" name="Annotation profile for mail-jbossas7" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="mail-jbossas7" />
+      </profile>
+      <profile default="false" name="Annotation profile for tomcat-cdi-jpa (2)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="tomcat-cdi-jpa (2)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="basic-cdiliquibase" target="1.7" />
+      <module name="basic-liquibase-cdi-ear" target="1.5" />
+      <module name="basic-liquibase-cdi-ear-ear" target="1.7" />
+      <module name="mail-jbossas7" target="1.6" />
+      <module name="mongo-morphia-basic" target="1.7" />
+      <module name="smtp-handler" target="1.7" />
+      <module name="spring4-jpa" target="1.5" />
+      <module name="tomcat-cdi-jpa (1)" target="1.6" />
+      <module name="tomcat-cdi-jpa (2)" target="1.6" />
+      <module name="tomcat-cdi-jpa-jaxrs" target="1.5" />
+      <module name="tomcat-standalone" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

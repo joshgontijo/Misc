@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="basic-liquibase-cdi-ear-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/basic-liquibase-cdi-ear/basic-liquibase-cdi-ear-ear/target/basic-liquibase-cdi-ear-ear-0.1</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="basic-liquibase-cdi-ear-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/basic-liquibase-cdi-ear/basic-liquibase-cdi-ear-ear/target/basic-liquibase-cdi-ear-ear-0.1/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/basic-liquibase-cdi-ear/basic-liquibase-cdi-ear-ear/src/main/application" />
+      <element id="directory" name="lib">
+        <element id="archive" name="basic-cdiliquibase-0.1.jar">
+          <element id="artifact" artifact-name="basic-cdiliquibase:ejb exploded" />
+        </element>
+        <element id="library" level="project" name="Maven: org.liquibase:liquibase-cdi:3.1.1" />
+        <element id="library" level="project" name="Maven: org.liquibase:liquibase-core:3.1.1" />
+        <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.13" />
+      </element>
+    </root>
+  </artifact>
+</component>

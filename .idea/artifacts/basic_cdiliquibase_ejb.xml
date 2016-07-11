@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="basic-cdiliquibase:ejb">
+    <output-path>$PROJECT_DIR$/basic-liquibase-cdi-ear/basic-cdiliquibase/target</output-path>
+    <root id="archive" name="basic-cdiliquibase-0.1.jar">
+      <element id="artifact" artifact-name="basic-cdiliquibase:ejb exploded" />
+    </root>
+  </artifact>
+</component>
