@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 /**
  * Created by Josue on 30/11/2016.
  */
-@Path("sample")
+@Path("users")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 @ApplicationScoped
