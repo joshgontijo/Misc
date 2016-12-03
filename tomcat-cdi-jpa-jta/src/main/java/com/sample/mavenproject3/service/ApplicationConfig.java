@@ -5,19 +5,17 @@
  */
 package com.sample.mavenproject3.service;
 
-import java.util.Set;
+import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
+import java.util.Set;
 
-/**
- *
- * @author iFood
- */
-@javax.ws.rs.ApplicationPath("webresources")
+
+@ApplicationPath("webresources")
 public class ApplicationConfig extends Application {
 
     @Override
     public Set<Class<?>> getClasses() {
-        Set<Class<?>> resources = new java.util.HashSet<Class<?>>();
+        Set<Class<?>> resources = new java.util.HashSet<>();
         addRestResourceClasses(resources);
         return resources;
     }

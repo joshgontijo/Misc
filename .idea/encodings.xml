@@ -3,13 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/basic-liquibase-cdi-ear/basic-cdiliquibase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-liquibase-cdi-ear/basic-liquibase-cdi-ear-ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/embedded-tomcat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mail-jbossas7" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mongo-morphia-basic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/smtp-handler" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat-cdi-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tomcat-standalone" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

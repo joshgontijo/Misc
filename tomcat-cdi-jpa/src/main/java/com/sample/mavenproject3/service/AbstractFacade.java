@@ -10,7 +10,7 @@ import javax.persistence.EntityManager;
 
 /**
  *
- * @author iFood
+ * @author
  */
 public abstract class AbstractFacade<T> {
     private Class<T> entityClass;

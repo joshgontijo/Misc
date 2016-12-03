@@ -24,7 +24,7 @@ import javax.ws.rs.Produces;
 
 /**
  *
- * @author iFood
+ * @author
  */
 @Path("com.sample.mavenproject3.users")
 @ApplicationScoped
