@@ -24,6 +24,7 @@ public class Main {
 
     private static final String WEBAPP_RESOURCES_LOCATION = "webapp";
 
+
     public static void main(String[] args) throws Exception {
         Server server = new Server(8080);
 

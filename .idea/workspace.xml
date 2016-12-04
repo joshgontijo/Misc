@@ -42,19 +42,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/embedded-jetty/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <marker date="1480798455805" expanded="true" signature="2280:2463" ph="..." />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="153" column="44" lean-forward="true" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -67,11 +65,24 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="55" column="88" lean-forward="false" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
+            <state relative-caret-position="174">
+              <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1480796844564" expanded="true" signature="808:1195" ph="..." />
+                <marker date="1480860701916" expanded="true" signature="809:1196" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomJacksonProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="e#1509#1510#0" expanded="false" />
+                <element signature="e#1538#1539#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -90,9 +101,11 @@
       <file leaf-file-name="UserResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/UserResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +115,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#369#370#0" expanded="false" />
+                <element signature="e#396#397#0" expanded="false" />
+                <element signature="e#423#424#0" expanded="false" />
+                <element signature="e#449#450#0" expanded="false" />
+                <element signature="e#478#479#0" expanded="false" />
+                <element signature="e#505#506#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +142,9 @@
       <find>iFood</find>
       <find>9.2.3.v20140905</find>
       <find>getJAXRSServlet</find>
+      <find>jersey-media-json-jackson</find>
+      <find>jersey-cdi1x</find>
+      <find>metainf</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -165,9 +188,10 @@
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/resources/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/HelloServlet.java" />
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java" />
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java" />
         <option value="$PROJECT_DIR$/embedded-jetty/pom.xml" />
-        <option value="$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml" />
       </list>
     </option>
   </component>
@@ -241,6 +265,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,9 +374,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,6 +388,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="jmh&#9;ACTION&#9;generateMicroBenchmark&#10;Plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -921,6 +946,10 @@
       <properties />
       <method />
     </configuration>
+    <configuration default="true" type="jmh-id" factoryName="Jmh">
+      <module name="" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1114,27 +1143,28 @@
       <option name="presentableId" value="Default" />
       <updated>1468256908806</updated>
       <workItem from="1468256909955" duration="4130000" />
-      <workItem from="1480636575476" duration="26869000" />
+      <workItem from="1480636575476" duration="29340000" />
+      <workItem from="1480860335585" duration="4297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30999000" />
+    <option name="totallyTimeSpent" value="37767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.503876" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1145,17 +1175,16 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.4910913" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5044543" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5089087" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1163,6 +1192,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
@@ -1184,6 +1214,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="44" column="63" lean-forward="false" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1480860701916" expanded="true" signature="809:1196" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#1509#1510#0" expanded="false" />
+            <element signature="e#1538#1539#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#369#370#0" expanded="false" />
+            <element signature="e#396#397#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring4-jpa/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar!/org/springframework/data/repository/Repository.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1223,11 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-425">
           <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#3440#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1392#1408#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,20 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#2030#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#485#486#0" expanded="false" />
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,22 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#2346#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1339#1340#0" expanded="false" />
-            <element signature="e#1371#1372#0" expanded="false" />
-            <element signature="e#1402#1403#0" expanded="false" />
-            <element signature="e#1429#1430#0" expanded="false" />
-            <element signature="e#1469#1470#0" expanded="false" />
-            <element signature="e#1501#1502#0" expanded="false" />
-            <element signature="e#1532#1533#0" expanded="false" />
-            <element signature="e#1559#1560#0" expanded="false" />
-            <element signature="e#1599#1600#0" expanded="false" />
-            <element signature="e#1631#1632#0" expanded="false" />
-            <element signature="e#2261#2262#0" expanded="false" />
-            <element signature="e#2337#2338#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,9 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#988#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,7 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,7 +1389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,7 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,7 +1410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,9 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1387,7 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1395,34 +1439,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
           <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/webapp/WEB-INF/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/webapp/WEB-INF/index.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.4.0.RC2/jetty-server-9.4.0.RC2.jar!/org/eclipse/jetty/server/handler/ContextHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15385">
           <caret line="1039" column="21" lean-forward="false" selection-start-line="1039" selection-start-column="21" selection-end-line="1039" selection-end-column="21" />
-          <folding>
-            <element signature="e#39359#39360#0" expanded="true" />
-            <element signature="e#39406#39407#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,7 +1455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="220" column="21" lean-forward="true" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,15 +1470,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#369#370#0" expanded="false" />
+            <element signature="e#396#397#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,7 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,18 +1492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="66" column="11" lean-forward="false" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="55" column="88" lean-forward="false" selection-start-line="55" selection-start-column="88" selection-end-line="55" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480796844564" expanded="true" signature="808:1195" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1493,28 +1503,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/webapp/index.html" />
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="e#1509#1510#0" expanded="false" />
+            <element signature="e#1538#1539#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.24/jaxrs-ri-2.24.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1480860701916" expanded="true" signature="809:1196" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/embedded-jetty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <marker date="1480798455805" expanded="true" signature="2280:2463" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="361">
+          <caret line="153" column="44" lean-forward="true" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
           <folding />
         </state>
       </provider>

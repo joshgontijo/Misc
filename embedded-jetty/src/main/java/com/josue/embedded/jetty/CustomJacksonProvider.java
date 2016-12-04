@@ -8,6 +8,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import javax.ws.rs.Consumes;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.ext.ContextResolver;
@@ -21,6 +22,7 @@ import java.util.logging.Logger;
  */
 @Provider
 @Produces(MediaType.APPLICATION_JSON)
+@Consumes(MediaType.APPLICATION_JSON)
 public class CustomJacksonProvider implements ContextResolver<ObjectMapper> {
 
     private static final Logger LOG = Logger.getLogger(CustomJacksonProvider.class.getName());

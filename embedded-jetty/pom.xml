@@ -13,10 +13,11 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <jetty.version>9.2.2.v20140723</jetty.version>
+        <jersey.version>2.24.1</jersey.version>
+        <weld.version>2.4.1.Final</weld.version>
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-servlet</artifactId>
@@ -27,59 +28,37 @@
             <artifactId>jetty-webapp</artifactId>
             <version>${jetty.version}</version>
         </dependency>
+        <!-- includes required javax.el:javax.el-api and also provides jsp support -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-jsp</artifactId>
             <version>${jetty.version}</version>
         </dependency>
 
-        <!-- Dependencies for Servlet 3.0 annotations -->
-        <!-- http://www.eclipse.org/jetty/documentation/current/using-annotations-embedded.html -->
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-annotations</artifactId>
-            <version>${jetty.version}</version>
-        </dependency>
-
-
-
-        <!-- COMMON DEPENDENCIES -->
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax.el</groupId>
-            <artifactId>javax.el-api</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-
-
         <!--WELD dependencies-->
         <dependency>
             <groupId>org.jboss.weld.servlet</groupId>
             <artifactId>weld-servlet</artifactId>
-            <version>2.4.1.Final</version>
+            <version>${weld.version}</version>
         </dependency>
-        <!--JERSEY-WELD integration-->
-        <dependency>
-            <groupId>org.glassfish.jersey.ext.cdi</groupId>
-            <artifactId>jersey-cdi1x</artifactId>
-            <version>2.23</version>
-        </dependency>
+
 
         <!--JERSEY-->
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet-core</artifactId>
-            <version>2.23.1</version>
+            <version>${jersey.version}</version>
+        </dependency>
+        <!--JERSEY-WELD integration: is not part of the bundle -->
+        <dependency>
+            <groupId>org.glassfish.jersey.ext.cdi</groupId>
+            <artifactId>jersey-cdi1x</artifactId>
+            <version>${jersey.version}</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-jackson</artifactId>
-            <version>2.24.1</version>
+            <version>${jersey.version}</version>
         </dependency>
 
     </dependencies>
@@ -87,24 +66,95 @@
     <build>
         <plugins>
             <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.5</version>
                 <configuration>
                     <archive>
                         <manifest>
                             <mainClass>com.josue.embedded.jetty.Main</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <!-- Specified to allow Jetty to know its own Version ID -->
+                            <Implementation-Version>${jetty.version}</Implementation-Version>
+                        </manifestEntries>
                     </archive>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
                 </configuration>
+            </plugin>
+            <!-- DO NOT USE maven-assembly-plugin -->
+            <!-- It doesn't include the necessary META-INF/services entries necessary for the dependencies to work-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.1</version>
                 <executions>
                     <execution>
-                        <id>make-assembly</id> <!-- this is used for inheritance merges -->
-                        <phase>package</phase> <!-- bind to the packaging phase -->
+                        <id>rebuild-jar</id>
+                        <phase>package</phase>
                         <goals>
-                            <goal>single</goal>
+                            <goal>shade</goal>
                         </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <artifactSet>
+                                <includes>
+                                    <include>*:*</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/VERSION.txt</exclude>
+                                        <exclude>META-INF/LICENSE.txt</exclude>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                                <!-- exclude the MANIFEST.MF entries that will cause problems -->
+                                <filter>
+                                    <artifact>javax.annotation:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>javax.servlet:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>javax.websocket:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.eclipse.jetty:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.eclipse.jetty.websocket:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.ow2.asm:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <transformers>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                            </transformers>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
