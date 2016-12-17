@@ -41,36 +41,83 @@
     <favorites_list name="Misc" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/embedded-jetty/pom.xml">
+    <leaf>
+      <file leaf-file-name="UserJpaRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/UserJpaRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="153" column="44" lean-forward="true" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="362">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#967#968#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml">
+      <file leaf-file-name="JPAServletListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/JPAServletListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+            <state relative-caret-position="408">
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1480860701916" expanded="true" signature="809:1196" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketListener.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-api/9.4.0.v20161208/websocket-api-9.4.0.v20161208.jar!/org/eclipse/jetty/websocket/api/WebSocketListener.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/HelloServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JettyServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/JettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1624#1625#0" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#2029#2030#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/tx/TransactionInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded-jetty/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,51 +125,9 @@
       <file leaf-file-name="CustomJacksonProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding>
-                <element signature="e#1509#1510#0" expanded="false" />
-                <element signature="e#1538#1539#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="235">
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/UserResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#369#370#0" expanded="false" />
-                <element signature="e#396#397#0" expanded="false" />
-                <element signature="e#423#424#0" expanded="false" />
-                <element signature="e#449#450#0" expanded="false" />
-                <element signature="e#478#479#0" expanded="false" />
-                <element signature="e#505#506#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -132,8 +137,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -145,10 +151,13 @@
       <find>jersey-media-json-jackson</find>
       <find>jersey-cdi1x</find>
       <find>metainf</find>
+      <find>ejb</find>
+      <find>System.out.println</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>${jetty.version}</replace>
+      <replace>logger.info</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -190,8 +199,19 @@
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml" />
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/UserControl.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/UserResource.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/User.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/test/java/com/josue/embedded/jetty/user/UserResourceTest.groovy" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/test/java/com/josue/embedded/jetty/user/UserResourceIT.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/UserJpaRepository.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/tx/TransactionInterceptor.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/JPAServletListener.java" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/ws/UserWebsocket.java" />
         <option value="$PROJECT_DIR$/embedded-jetty/pom.xml" />
+        <option value="$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/JettyServer.java" />
       </list>
     </option>
   </component>
@@ -266,10 +286,92 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomcat-cdi-jpa-jaxrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomcat-cdi-jpa-jaxrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomcat-cdi-jpa-jaxrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaxrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tomcat-cdi-jpa-jaxrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaxrs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Misc" />
@@ -291,6 +393,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,10 +427,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,12 +482,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="embedded-jetty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -389,14 +531,25 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="jmh&#9;ACTION&#9;generateMicroBenchmark&#10;Plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.josue.embedded.jetty.user" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Josue\Projects\Misc\embedded-jetty\src\main\java\com\josue\embedded\jetty" />
       <recent name="C:\Users\Josue\Projects\Misc\embedded-jetty\src\main\resources\META-INF" />
       <recent name="C:\Users\Josue\Projects\Misc\embedded-jetty\src\main\resources\webapp\WEB-INF" />
       <recent name="C:\Users\Josue\Projects\Misc\embedded-jetty\src\main" />
       <recent name="C:\Users\Josue\Projects\Misc\embedded-jetty\src\main\resources" />
-      <recent name="C:\Users\Josue\Projects\Misc\embedded-tomcat\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.josue.embedded.jetty" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Josue\Projects\Misc\embedded-jetty\src\main\webapp\WEB-INF" />
@@ -408,11 +561,11 @@
     <configuration default="false" name="Jetty" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.josue.embedded.jetty.*" />
+          <option name="PATTERN" value="com.josue.embedded.jetty.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.josue.embedded.jetty.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.josue.embedded.jetty.JettyServer" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/embedded-jetty" />
@@ -423,6 +576,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="embedded-jetty" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserResourceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.josue.embedded.jetty.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="embedded-jetty" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.josue.embedded.jetty.user" />
+      <option name="MAIN_CLASS_NAME" value="com.josue.embedded.jetty.user.UserResourceIT" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.35" ALTERNATIVE_JRE_ENABLED="false">
@@ -960,7 +1139,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -1068,15 +1247,22 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring4-jpa:war exploded" />
+        </option>
+      </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Application.Jetty" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserResourceIT" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Jetty" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserResourceIT" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1144,12 +1330,48 @@
       <updated>1468256908806</updated>
       <workItem from="1468256909955" duration="4130000" />
       <workItem from="1480636575476" duration="29340000" />
-      <workItem from="1480860335585" duration="4297000" />
+      <workItem from="1480860335585" duration="5594000" />
+      <workItem from="1480964482895" duration="908000" />
+      <workItem from="1481832289575" duration="1642000" />
+      <workItem from="1481929577735" duration="1923000" />
+      <workItem from="1481931571525" duration="13791000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserResourceIT - 2016.12.17 at 00h 38m 06s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 00h 57m 01s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 00h 59m 00s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 00h 59m 36s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 01h 04m 18s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 01h 05m 12s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 01h 24m 26s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 01h 24m 55s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 01h 38m 28s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserResourceIT - 2016.12.17 at 01h 40m 22s.xml">
+      <configuration name="UserResourceIT" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37767000" />
+    <option name="totallyTimeSpent" value="57328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1158,39 +1380,40 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.503876" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16693333" sideWeight="0.37486094" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16693333" sideWeight="0.62513906" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933258" sideWeight="0.49503312" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.4910913" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5089087" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1888" sideWeight="0.47385985" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1888" sideWeight="0.52614015" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1214,191 +1437,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="44" column="63" lean-forward="false" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480860701916" expanded="true" signature="809:1196" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="e#1509#1510#0" expanded="false" />
-            <element signature="e#1538#1539#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#449#450#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring4-jpa/pom.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar!/org/springframework/data/repository/Repository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring4-jpa/src/main/java/com/sample/DbConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring4-jpa/src/main/java/com/sample/User.java" />
-    <entry file="file://$PROJECT_DIR$/spring4-jpa/src/main/java/com/sample/configuration/Configurator.java" />
-    <entry file="file://$PROJECT_DIR$/spring4-jpa/src/main/java/com/sample/configuration/Initializer.java" />
-    <entry file="file://$PROJECT_DIR$/spring4-jpa/src/main/java/com/sample/UserRepository.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.9.4.RELEASE/spring-data-jpa-1.9.4.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="76" lean-forward="false" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring4-jpa/src/main/java/com/sample/SampleResource.java" />
-    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/src/main/java/com/sample/mavenproject3/DatasourceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/src/main/java/com/sample/mavenproject3/service/AbstractFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/src/main/java/com/sample/mavenproject3/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/src/main/java/com/sample/mavenproject3/service/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1271">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/employees-app/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.28/tomcat-embed-core-8.0.28.jar!/org/apache/catalina/startup/Tomcat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-tomcat/src/main/java/com/josue/tiled2/server/HelloServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-tomcat/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-tomcat/src/main/resources/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/embedded-tomcat/src/main/resources/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1417,7 +1455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="72" column="21" lean-forward="true" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,29 +1495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/HelloServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#449#450#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-webapp/9.2.2.v20140723/jetty-webapp-9.2.2.v20140723.jar!/org/eclipse/jetty/webapp/WebAppContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1499,7 +1513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1512,27 +1525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="57" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="e#1509#1510#0" expanded="false" />
-            <element signature="e#1538#1539#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/glassfish/jersey/bundles/jaxrs-ri/2.24/jaxrs-ri-2.24.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1540,22 +1532,317 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/Main.java">
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        <state relative-caret-position="1122">
+          <caret line="66" column="21" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/tomcat-cdi-jpa (1).iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/src/main/java/com/sample/mavenproject3/DatasourceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/src/main/java/com/josue/tomcat/cdi/jpa/jaxrs/tx/TransactionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/src/main/java/com/josue/tomcat/cdi/jpa/jaxrs/tx/UseTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="66" column="21" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/src/main/java/com/josue/tomcat/cdi/jpa/jaxrs/JPAServletListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/JettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/hibernate/hibernate-c3p0/4.3.8.Final/hibernate-c3p0-4.3.8.Final.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1143">
+          <caret line="78" column="52" lean-forward="false" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+          <folding>
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/test/java/com/josue/embedded/jetty/user/UserResourceTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/test/java/com/josue/embedded/jetty/user/UserResourceIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1262#1584#0" expanded="false" />
+            <element signature="e#1583#1584#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/tx/UseTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#643#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/src/main/java/com/sample/mavenproject3/service/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#988#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.2.v20140723/javax-websocket-server-impl-9.2.2.v20140723.jar!/org/eclipse/jetty/websocket/jsr356/server/ServerContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/server/ServerContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/server/ServerEndpointConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="91" column="57" lean-forward="false" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/server/ServerEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.2.v20140723/javax-websocket-server-impl-9.2.2.v20140723.jar!/org/eclipse/jetty/websocket/jsr356/server/AnnotatedServerEndpointConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.2.v20140723/javax-websocket-server-impl-9.2.2.v20140723.jar!/org/eclipse/jetty/websocket/jsr356/server/deploy/WebSocketServerContainerInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="89" column="32" lean-forward="false" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/user/UserJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/tx/TransactionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-api/9.4.0.v20161208/websocket-api-9.4.0.v20161208.jar!/org/eclipse/jetty/websocket/api/WebSocketAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/CustomJacksonProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/JPAServletListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1480860701916" expanded="true" signature="809:1196" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-api/9.4.0.v20161208/websocket-api-9.4.0.v20161208.jar!/org/eclipse/jetty/websocket/api/WebSocketConnectionListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-api/9.4.0.v20161208/websocket-api-9.4.0.v20161208.jar!/org/eclipse/jetty/websocket/api/WebSocketListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/ws/UserWebsocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/embedded-jetty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="153" column="44" lean-forward="true" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded-jetty/src/main/java/com/josue/embedded/jetty/JettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1614,7 +1901,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>embedded-tomcat</last-edited>
+          <last-edited>tomcat-cdi-jpa-jaxrs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
