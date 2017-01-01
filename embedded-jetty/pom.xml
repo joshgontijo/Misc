@@ -95,6 +95,25 @@
             <version>2.0.3.Final</version>
         </dependency>
 
+        <!-- Websocket -->
+        <dependency>
+            <groupId>javax.websocket</groupId>
+            <artifactId>javax.websocket-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!-- To run javax.websocket in embedded server -->
+        <dependency>
+            <groupId>org.eclipse.jetty.websocket</groupId>
+            <artifactId>javax-websocket-server-impl</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+        <!-- To run javax.websocket client -->
+        <dependency>
+            <groupId>org.eclipse.jetty.websocket</groupId>
+            <artifactId>javax-websocket-client-impl</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+
         <!-- Database -->
         <dependency>
             <groupId>com.h2database</groupId>

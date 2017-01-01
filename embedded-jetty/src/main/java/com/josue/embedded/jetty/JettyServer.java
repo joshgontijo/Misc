@@ -2,10 +2,14 @@ package com.josue.embedded.jetty;
 
 import com.josue.embedded.jetty.user.User;
 import com.josue.embedded.jetty.user.UserJpaRepository;
+import com.josue.embedded.jetty.ws.HelloEndpoint;
+import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.handler.ContextHandlerCollection;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.webapp.WebAppContext;
+import org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.servlet.ServletContainer;
 import org.jboss.weld.environment.servlet.Listener;
@@ -15,6 +19,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.websocket.server.ServerContainer;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -37,16 +42,32 @@ public class JettyServer {
 
     public void start() throws Exception {
         WebAppContext context = new WebAppContext();
-        server.setHandler(context);
 
         setupWeb(context);
         setupServlets(context);
         context.addServlet(getJAXRSServlet(), "/api/*");
         setupCDI(context);
         setupJpa(context);
+        ServletContextHandler wsContextHandler = setupWS("/ws");
+
+        //provide 2 different contexts, one for webapp another for WS
+        ContextHandlerCollection contexts = new ContextHandlerCollection();
+        contexts.setHandlers(new Handler[] { context, wsContextHandler });
+        server.setHandler(contexts);
 
         server.start();
-//        server.join();
+        server.join();
+    }
+
+    public ServletContextHandler setupWS(String path) throws Exception {
+        ServletContextHandler wsContext = new ServletContextHandler(ServletContextHandler.SESSIONS);
+        wsContext.setContextPath(path);
+        wsContext.setServer(server);
+
+        ServerContainer wscontainer = WebSocketServerContainerInitializer.configureContext(wsContext);
+        wscontainer.addEndpoint(HelloEndpoint.class);
+
+        return wsContext;
     }
 
     public void shutdown() throws Exception {
@@ -56,6 +77,7 @@ public class JettyServer {
     private void setupJpa(ServletContextHandler context) {
         context.addEventListener(new JPAServletListener());
     }
+
 
 
     private ServletHolder getJAXRSServlet() {
