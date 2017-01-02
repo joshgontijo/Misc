@@ -112,11 +112,11 @@
             <artifactId>javax-websocket-server-impl</artifactId>
             <version>${jetty.version}</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.eclipse.jetty.cdi</groupId>-->
-            <!--<artifactId>cdi-websocket</artifactId>-->
-            <!--<version>${jetty.version}</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.eclipse.jetty.cdi</groupId>
+            <artifactId>cdi-websocket</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
 
         <!-- To run javax.websocket client -->
         <dependency>

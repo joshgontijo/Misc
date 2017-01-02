@@ -2,20 +2,12 @@ package com.josue.jetee;
 
 import com.josue.jetee.jcache.CacheListener;
 import com.josue.jetee.jpa.JPAServletListener;
-import org.eclipse.jetty.annotations.AnnotationConfiguration;
-import org.eclipse.jetty.plus.webapp.EnvConfiguration;
-import org.eclipse.jetty.plus.webapp.PlusConfiguration;
+import org.eclipse.jetty.cdi.websocket.WebSocketCdiListener;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.ContextHandlerCollection;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-import org.eclipse.jetty.webapp.Configuration;
-import org.eclipse.jetty.webapp.FragmentConfiguration;
-import org.eclipse.jetty.webapp.JettyWebXmlConfiguration;
-import org.eclipse.jetty.webapp.MetaInfConfiguration;
 import org.eclipse.jetty.webapp.WebAppContext;
-import org.eclipse.jetty.webapp.WebInfConfiguration;
-import org.eclipse.jetty.webapp.WebXmlConfiguration;
 import org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.servlet.ServletContainer;
@@ -48,24 +40,14 @@ public class JettyServer {
     private ServletContextHandler wsContext;
     private ServerContainer wscontainer;
 
+    private final Listener listener = new Listener();
+
     public JettyServer(int port) {
         this.server = new Server(port);
 
         this.context = new WebAppContext();
         context.setContextPath("/");
         context.setParentLoaderPriority(true);
-
-        context.setConfigurations(new Configuration[]
-                {
-                        new AnnotationConfiguration(),
-                        new WebInfConfiguration(),
-                        new WebXmlConfiguration(),
-                        new MetaInfConfiguration(),
-                        new FragmentConfiguration(),
-                        new EnvConfiguration(),
-                        new PlusConfiguration(),
-                        new JettyWebXmlConfiguration()
-                });
 
     }
 
@@ -92,12 +74,12 @@ public class JettyServer {
         wsContext.setContextPath(rootPath);
         wsContext.setServer(server);
 
-//        wsContext.addEventListener(new Listener());
+        wsContext.addEventListener(listener);
 
 
-//        WebSocketCdiInitializer.configureContext(wsContext);
+        wsContext.addLifeCycleListener(new WebSocketCdiListener());
         wscontainer = WebSocketServerContainerInitializer.configureContext(wsContext);
-//        wsContext.addLifeCycleListener(new WebSocketCdiListener());
+//        WebSocketCdiInitializer.configureContext(wsContext);
 
         return this;
     }
@@ -131,7 +113,7 @@ public class JettyServer {
         }
 
         server.setHandler(contexts);
-        server.dump(System.err);
+//        server.dump(System.err);
         server.start();
     }
 
@@ -145,7 +127,7 @@ public class JettyServer {
         if (persistence == null) {
             logger.warning("### '" + BEANS_XML_LOCATION + "' not found ###");
         }
-        context.addEventListener(new Listener());
+        context.addEventListener(listener);
     }
 
     private void setupJpa() {
@@ -178,8 +160,6 @@ public class JettyServer {
             logger.info("### '" + WEB_XML_LOCATION + "' found ###");
             context.setDescriptor(WEB_XML_LOCATION);
         }
-
-
     }
 
 }

@@ -14,21 +14,28 @@ import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
 @ClientEndpoint
-@ServerEndpoint(value = "/events")
-public class HelloEndpoint {
+@ServerEndpoint(
+        value = "/events",
+        encoders = UserEncoder.class,
+        decoders = UserEncoder.class)
+public class UserEndpoint {
 
     @Inject
     private EntityManager em;
 
+    private Session session;
+
     @OnOpen
     public void onWebSocketConnect(Session sess) {
         System.out.println("Socket Connected: " + sess);
+        this.session = sess;
         User user = em.find(User.class, "234");
     }
 
     @OnMessage
-    public void onWebSocketText(String message) {
-        System.out.println("Received TEXT message: " + message);
+    public void onMessage(User user) {
+        System.out.println("Received USER message: " + user.toString() + " echoing back");
+        session.getAsyncRemote().sendObject(user);
     }
 
     @OnClose

@@ -9,7 +9,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.Dependent;
 import javax.enterprise.inject.Produces;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -82,7 +82,7 @@ public class JPAServletListener implements ServletContextListener {
     }
 
     @Produces
-    @RequestScoped
+    @Dependent
     public EntityManager emProducer() {
         if (factory == null) {
             throw new IllegalStateException("Context is not initialized yet.");
