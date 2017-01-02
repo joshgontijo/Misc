@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Misc.iml" filepath="$PROJECT_DIR$/.idea/Misc.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded-jetty/embedded-jetty.iml" filepath="$PROJECT_DIR$/embedded-jetty/embedded-jetty.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded-tomcat/embedded-tomcat.iml" filepath="$PROJECT_DIR$/embedded-tomcat/embedded-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jacoco-client-test/jacoco-client-test.iml" filepath="$PROJECT_DIR$/jacoco-client-test/jacoco-client-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetee/jetee-all/jetee-all.iml" filepath="$PROJECT_DIR$/jetee/jetee-all/jetee-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetee/jetee-example/jetee-example.iml" filepath="$PROJECT_DIR$/jetee/jetee-example/jetee-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetee/jetee-parent/jetee-parent.iml" filepath="$PROJECT_DIR$/jetee/jetee-parent/jetee-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/mail-jbossas7/mail-jbossas7.iml" filepath="$PROJECT_DIR$/mail-jbossas7/mail-jbossas7.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongo-morphia-basic/mongo-morphia-basic.iml" filepath="$PROJECT_DIR$/mongo-morphia-basic/mongo-morphia-basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smtp-handler/smtp-handler.iml" filepath="$PROJECT_DIR$/smtp-handler/smtp-handler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring4-jpa/spring4-jpa.iml" filepath="$PROJECT_DIR$/spring4-jpa/spring4-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-cdi-jpa-jta/tomcat-cdi-jpa (1).iml" filepath="$PROJECT_DIR$/tomcat-cdi-jpa-jta/tomcat-cdi-jpa (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-cdi-jpa/tomcat-cdi-jpa (2).iml" filepath="$PROJECT_DIR$/tomcat-cdi-jpa/tomcat-cdi-jpa (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/tomcat-cdi-jpa-jaxrs.iml" filepath="$PROJECT_DIR$/tomcat-cdi-jpa-jaxrs/tomcat-cdi-jpa-jaxrs.iml" />

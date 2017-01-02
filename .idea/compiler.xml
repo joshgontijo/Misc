@@ -8,22 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="embedded-jetty" />
         <module name="embedded-tomcat" />
+        <module name="jacoco-client-test" />
+        <module name="jetee-all" />
+        <module name="jetee-example" />
         <module name="mail-jbossas7" />
         <module name="mongo-morphia-basic" />
-        <module name="smtp-handler" />
-        <module name="spring4-jpa" />
         <module name="tomcat-cdi-jpa (1)" />
         <module name="tomcat-cdi-jpa (2)" />
         <module name="tomcat-cdi-jpa-jaxrs" />
-        <module name="tomcat-standalone" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="embedded-jetty" target="1.8" />
       <module name="embedded-tomcat" target="1.8" />
+      <module name="jacoco-client-test" target="1.5" />
+      <module name="jetee" target="1.8" />
+      <module name="jetee-all" target="1.8" />
+      <module name="jetee-example" target="1.8" />
+      <module name="jetee-parent" target="1.5" />
       <module name="mail-jbossas7" target="1.6" />
       <module name="mongo-morphia-basic" target="1.7" />
-      <module name="smtp-handler" target="1.7" />
       <module name="tomcat-cdi-jpa (1)" target="1.6" />
       <module name="tomcat-cdi-jpa (2)" target="1.6" />
       <module name="tomcat-cdi-jpa-jaxrs" target="1.5" />
