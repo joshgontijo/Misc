@@ -5,17 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- MAVEN SHADE PLUGIN WRAPPER -->
-    <parent>
-        <groupId>com.josue</groupId>
-        <artifactId>jetee-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+    <!--<parent>-->
+    <!--<groupId>com.josue</groupId>-->
+    <!--<artifactId>jetee-parent</artifactId>-->
+    <!--<version>1.0-SNAPSHOT</version>-->
+    <!--</parent>-->
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <groupId>com.josue</groupId>
     <artifactId>jetee-example</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -51,22 +52,97 @@
 
     <build>
         <plugins>
-            <!-- Use parent shade plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>2.5</version>
                 <configuration>
                     <archive>
                         <manifest>
+                            <addClasspath>true</addClasspath>
                             <mainClass>com.josue.jetee.example.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
+            </plugin>
+            <!-- DO NOT USE maven-assembly-plugin -->
+            <!--It doesn't include the necessary META-INF/services entries necessary for the dependencies to work-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.1</version>
+                <executions>
+                    <execution>
+                        <id>rebuild-jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <artifactSet>
+                                <includes>
+                                    <include>*:*</include>
+                                </includes>
+                            </artifactSet>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/VERSION.txt</exclude>
+                                        <exclude>META-INF/LICENSE.txt</exclude>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                                <!-- exclude the MANIFEST.MF entries that will cause problems -->
+                                <filter>
+                                    <artifact>javax.annotation:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>javax.servlet:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>javax.websocket:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.eclipse.jetty:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.eclipse.jetty.websocket:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                                <filter>
+                                    <artifact>org.ow2.asm:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <transformers>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.XmlAppendingTransformer">
+                                    <resource>META-INF/beans.xml</resource>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
